@@ -13,4 +13,8 @@ export class AppComponent {
   title = 'first-bootstrape-project';
   currentCustomer="Hend";
   imagePath ='../assets/logo.png';
+  constructor() {}
+  onSave(){
+    console.log("Hello")
+  }
 }
